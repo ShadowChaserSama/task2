@@ -19,5 +19,5 @@ def halves_sums_equal(n):
 
 # Nümunələr:
 print(halves_sums_equal(19091))   # Beredir (1+9=10, 9+1=10)
-print(halves_sums_equal(12321))   # Beraber deyil (1+2=3, 2+1=3 → yox, wait test)
+print(halves_sums_equal(14321))   # Beraber deyil (1+4=5, 2+1=3 → yox)
 print(halves_sums_equal(123321))  # Sehv (çünki 6 rəqəmli)
