@@ -1,5 +1,5 @@
 def halves_sums_equal(n):
-    s = str(abs(int(n)))  # mənfi ədəd olsa da işləsin
+    s = str(abs(int(n))) 
     L = len(s)
 
     if L % 2 == 0:  
@@ -13,9 +13,9 @@ def halves_sums_equal(n):
     sum_right = sum(int(ch) for ch in right)
 
     if sum_left == sum_right:
-        return "Beredir ✅"
+        return "Equal ✅"
     else:
-        return "Beraber deyil ❌"
+        return "Not Equal ❌"
 
 # Nümunələr:
 print(halves_sums_equal(19091))   # Beredir (1+9=10, 9+1=10)
